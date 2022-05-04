@@ -1,0 +1,15 @@
+[package]
+edition = "2021"
+name = "nes-rs"
+version = "0.1.0"
+
+[lib]
+name = "nes"
+path = "src/lib.rs"
+
+[[bin]]
+name = "nes-rs"
+path = "src/main.rs"
+
+[dependencies]
+once_cell = "1.10.0"
